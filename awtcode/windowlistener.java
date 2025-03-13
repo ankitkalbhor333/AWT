@@ -25,9 +25,11 @@ public class windowlistener extends Frame implements WindowListener {
     }
     public void windowClosing(WindowEvent e) {
         l1.setText("window is closing ");
+        System.exit(0);
     }
     public void windowClosed(WindowEvent e){
         l1.setText("window is closed ");
+       
 
     }
     public void windowDeactivated(WindowEvent e){
